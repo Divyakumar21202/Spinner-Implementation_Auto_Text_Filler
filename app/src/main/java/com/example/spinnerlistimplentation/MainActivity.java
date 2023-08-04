@@ -197,5 +197,6 @@ public class MainActivity extends AppCompatActivity {
 
        ArrayAdapter<String> autotxt=new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_spinner_dropdown_item,id);
        atxtview.setAdapter(autotxt);
+       //
     }
 }
